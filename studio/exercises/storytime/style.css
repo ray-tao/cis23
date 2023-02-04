@@ -1,0 +1,175 @@
+@font-face {
+    src: url(fonts/chicago.ttf);
+    font-family: chicago;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    font-family: chicago;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    /* background-image: linear-gradient(rgb(232, 252, 255), rgb(255, 231, 246)); */
+}
+
+p {
+    font-size: 1vw;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.mp3-container {
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.mp3-player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 62.5vw;
+    height: 17.5vw;
+    background: #ffffff;
+    border-radius: 12.5vw;
+    box-shadow: -5px 0 10px 5px #ebebeb inset, 10px 1px 10px 5px #ebebeb inset;
+    border: solid;
+    border-color: #ebebeb;
+}
+
+.line {
+    height: 17.5vw;
+    width: 0.083vw;
+    background-color: #c2c2c2;
+    position: relative;
+    left: 2%;
+}
+
+.back {
+    width: 1vw;
+    position: relative;
+    left: 10%;
+    font-size: 2vw;
+    color: #ffffff;
+    pointer-events: none;
+}
+
+.screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16.667vw;
+    height: 9.167vw;
+    background: black;
+    border-radius: 0.583vw;
+    position: relative;
+    padding: 0.833vw;
+    left: 12.9%;
+    box-shadow: 0px 0px 4px 12px #e5e5e5;
+}
+
+.logo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.083vw;
+    font-weight: bold;
+    color: #344247;
+    transform: rotate(90deg);
+    position: relative;
+    left: 12.9%;
+}
+
+.button-outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14vw;
+    height: 14vw;
+    background-color: darkred;
+    border-radius: 5vw;
+    position: relative;
+    left: 11%;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 1);
+}
+
+.button-inner {
+    width: 9.333vw;
+    height: 9.333vw;
+    border-radius: 3.917vw;
+    background: radial-gradient(
+        circle,
+        rgb(236, 236, 236) 60%,
+        rgb(255, 255, 255) 100%
+    );
+    box-shadow: 0px 0px 3px 1px rgb(68, 68, 68);
+}
+
+.next {
+    position: relative;
+    left: 15%;
+    bottom: 1%;
+    font-size: 2vw;
+    color: #344247;
+}
+
+.top-button {
+    width: 18.75vw;
+    height: 0.5vw;
+    background-color: rgb(240, 240, 240);
+    border-radius: 0.833vw 0.833vw 0 0;
+    position: relative;
+    left: 2%;
+    box-shadow: 6px 3px 3px 2px #e5e5e5 inset, 6px 3px 3px 2px #e5e5e5 inset;
+}
+
+.bottom-button {
+    width: 7.5vw;
+    height: 0.417vw;
+    background-color: rgb(233, 233, 233);
+    border-radius: 0 0 0.833vw 0.833vw;
+    position: relative;
+    left: 12%;
+    box-shadow: 0px 3px 3px 2px #f5f5f5 inset, 6px 3px 3px 2px #e3e3e3 inset;
+}
+
+.cable {
+    width: 4vw;
+    height: 2vw;
+    background-color: lightgrey;
+    position: absolute;
+    left: 81.2%;
+    border-radius: 0.2vw;
+    background: linear-gradient(
+        180deg,
+        rgb(246, 246, 246) 30%,
+        rgba(205, 205, 205, 1) 87%
+    );
+}
+
+.cable-wire {
+    width: 20vw;
+    height: 1vw;
+    position: absolute;
+    background-color: lightgray;
+    left: 85%;
+    background: linear-gradient(
+        180deg,
+        rgb(246, 246, 246) 30%,
+        rgba(205, 205, 205, 1) 87%
+    );
+}
+
+img {
+    width: 920px;
+}
