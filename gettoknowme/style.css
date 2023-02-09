@@ -1,0 +1,128 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+    background-image: url("https://images.pexels.com/photos/3616764/pexels-photo-3616764.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+
+img,
+video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    max-width: 100%;
+}
+
+.box {
+    height: fit-content;
+    width: 50%;
+    background-color: rgb(255, 255, 255, 40%);
+    padding: 2%;
+    margin: 2%;
+    border-radius: 10px;
+}
+
+.title {
+    width: fit-content;
+    height: fit-content;
+    border: solid 3px;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.answer {
+    width: 100%;
+    height: fit-content;
+    color: black;
+    background-color: rgba(150, 131, 114, 15%);
+    padding: 1%;
+    margin: 1vw;
+    border-radius: 7px;
+}
+
+.question {
+    /* font-weight: bold; */
+    margin: 2%;
+}
+
+#picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 2vw;
+}
+#picture > iframe {
+    min-width: none;
+}
+
+#video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 2vw;
+}
+
+a {
+    color: darkred;
+    text-decoration: none;
+}
+
+.glitch-synth {
+    color: lightseagreen;
+    text-decoration: underline wavy;
+}
+.hiphop {
+    color: palevioletred;
+    text-decoration: line-through;
+}
+
+.alternative-indie {
+    color: mediumvioletred;
+    text-decoration: underline dotted;
+}
+
+.latin-urbano {
+    color: olive;
+    text-decoration: underline overline;
+}
+
+.cloudrap {
+    color: maroon;
+    text-decoration: underline double;
+}
+
+.hyperpop {
+    color: coral;
+    text-decoration: underline;
+}
+
+button {
+    width: 7vw;
+    height: 3vw;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: none;
+    border: solid 3px;
+    padding: 1%;
+    border-radius: 30px;
+    cursor: pointer;
+}

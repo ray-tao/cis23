@@ -1,0 +1,80 @@
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    row-gap: 2vw;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.shapes {
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    flex-direction: row;
+    position: absolute;
+}
+
+.square1 {
+    right: 3vw;
+    width: 10vw;
+    height: 10vw;
+    background-color: lightgreen;
+    opacity: 50%;
+}
+
+.circle1 {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    background-color: lightcoral;
+    opacity: 50%;
+}
+
+.circle2 {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    background-color: lightblue;
+    opacity: 50%;
+}
+
+.triangle1 {
+    width: 0;
+    height: 0;
+    opacity: 50%;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid rgb(255, 223, 62);
+}
+
+.triangle2 {
+    width: 0;
+    height: 0;
+    opacity: 50%;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 300px solid rgb(255, 133, 133);
+}
+
+.triangle3 {
+    width: 0;
+    height: 0;
+    opacity: 50%;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 400px solid rgb(255, 191, 79);
+}
+
+.rectangle1 {
+    width: 10vw;
+    height: 20vw;
+    background-color: lightseagreen;
+    opacity: 50%;
+}
