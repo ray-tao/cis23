@@ -1,0 +1,32 @@
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(
+            0deg,
+            rgba(90, 64, 18, 0.2) 10%,
+            rgba(237, 218, 137, 0.2) 50%,
+            rgba(90, 64, 18, 0.2) 90%
+        )
+        fixed;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    cursor: pointer;
+}
+
+span:hover {
+    background: linear-gradient(
+            0deg,
+            rgba(90, 64, 18, 1) 10%,
+            rgba(237, 218, 137, 1) 50%,
+            rgba(90, 64, 18, 1) 90%
+        )
+        fixed;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}

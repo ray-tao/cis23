@@ -1,0 +1,49 @@
+body > * {
+    position: absolute;
+}
+
+body {
+    position: relative;
+}
+
+h1 {
+    position: relative;
+    top: -37%;
+    z-index: 5;
+}
+
+body {
+    background: #000000;
+    overflow: hidden;
+    height: 100vh;
+}
+
+p {
+    width: 90vw;
+    height: fit-content;
+    font-size: 1.5vw;
+    line-height: 4vw;
+    text-align: center;
+    top: 25vw;
+    bottom: 20vw;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+}
+
+#circle {
+    height: 300vw;
+    width: 300vw;
+    border-radius: 50%;
+    background: radial-gradient(
+        7% 7% at 50% 50%,
+        rgba(255, 210, 94, 0.46) 0%,
+        rgba(255, 184, 0, 0.46) 30%,
+        rgba(116, 83, 0, 0.54) 60%,
+        #000000 100%
+    );
+}
+
+.navigation {
+    position: relative;
+    bottom: -32%;
+}

@@ -1,0 +1,26 @@
+p {
+    background: none;
+}
+
+.highlight {
+    flex: 1;
+    background-position: 0 -0.1em;
+    background-image: linear-gradient(
+        to right,
+        rgba(90, 64, 18) 0%,
+        rgb(158, 113, 36) 25%,
+        rgba(237, 218, 137, 0.8) 50%,
+        rgb(158, 113, 36) 75%,
+        rgba(90, 64, 18) 100%
+    );
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    -webkit-background-clip: text;
+    background-clip: text;
+    cursor: pointer;
+}
+
+.highlight:hover {
+    background-size: 100% 100%;
+}

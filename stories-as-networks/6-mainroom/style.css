@@ -1,0 +1,149 @@
+body,
+html {
+    overflow-x: hidden;
+}
+
+.bar {
+    padding-bottom: 4vw;
+}
+
+.scroll-1 {
+    display: block;
+    width: 110%;
+    transform: translateX(120%);
+    animation: move 15s linear infinite;
+}
+
+.scroll-2 {
+    display: block;
+    width: 110%;
+    transform: translateX(120%);
+    animation: move 15s linear infinite;
+    animation-delay: 2s;
+}
+
+.scroll-3 {
+    display: block;
+    width: 110%;
+    transform: translateX(120%);
+    animation: move 15s linear infinite;
+    animation-delay: 4s;
+}
+
+.scroll-4 {
+    display: block;
+    width: 110%;
+    transform: translateX(120%);
+    animation: move 15s linear infinite;
+    animation-delay: 6s;
+}
+
+.scroll-5 {
+    display: block;
+    width: 110%;
+    transform: translateX(120%);
+    animation: move 15s linear infinite;
+    animation-delay: 8s;
+}
+
+.scroll-6 {
+    display: block;
+    width: 110%;
+    transform: translateX(120%);
+    animation: move 15s linear infinite;
+    animation-delay: 10s;
+}
+
+.scroll-7 {
+    display: block;
+    width: 110%;
+    transform: translateX(120%);
+    animation: move 15s linear infinite;
+    animation-delay: 12s;
+}
+
+.scroll-8 {
+    display: block;
+    width: 110%;
+    transform: translateX(120%);
+    animation: move 15s linear infinite;
+    animation-delay: 14s;
+}
+
+.scroll-9 {
+    display: block;
+    width: 110%;
+    transform: translateX(120%);
+    animation: move 15s linear infinite;
+    animation-delay: 16s;
+}
+
+.scroll-10 {
+    display: block;
+    width: 110%;
+    transform: translateX(120%);
+    animation: move 15s linear infinite;
+    animation-delay: 18s;
+}
+
+.scroll-11 {
+    display: block;
+    width: 110%;
+    transform: translateX(120%);
+    animation: move 15s linear infinite;
+    animation-delay: 20s;
+}
+
+.scroll-12 {
+    display: block;
+    width: 110%;
+    transform: translateX(120%);
+    animation: move 15s linear infinite;
+    animation-delay: 22s;
+}
+
+.scroll-13 {
+    display: block;
+    width: 110%;
+    transform: translateX(120%);
+    animation: move 15s linear infinite;
+    animation-delay: 24s;
+}
+
+.scroll-14 {
+    display: block;
+    width: 110%;
+    transform: translateX(120%);
+    animation: move 15s linear infinite;
+    animation-delay: 26s;
+}
+
+.scroll-15 {
+    display: block;
+    width: 110%;
+    transform: translateX(120%);
+    animation: move 15s linear infinite;
+    animation-delay: 28s;
+}
+
+.scroll-16 {
+    display: block;
+    width: 110%;
+    transform: translateX(120%);
+    animation: move 15s linear infinite;
+    animation-delay: 30s;
+}
+
+.scroll-17 {
+    display: block;
+    width: 110%;
+    transform: translateX(120%);
+    animation: move 15s linear infinite;
+    animation-delay: 32s;
+}
+
+@keyframes move {
+    to {
+        transform: translateX(-110%);
+    }
+}

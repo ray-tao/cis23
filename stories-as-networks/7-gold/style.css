@@ -1,0 +1,9 @@
+h1,
+h1,
+p {
+    background-image: url(./gold.gif);
+    background-size: cover;
+    color: white 80%;
+    background-clip: text;
+    -webkit-background-clip: text;
+}

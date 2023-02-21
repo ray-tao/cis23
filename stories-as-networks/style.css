@@ -1,0 +1,75 @@
+/* shadow effects credit to https://codepen.io/bennettfeely/pen/AoXeKK */
+@import url("https://fonts.googleapis.com/css?family=Oswald:700");
+html,
+body {
+    margin: 0;
+    overflow: hidden;
+    min-height: 100%;
+}
+
+html {
+    position: relative;
+    padding: 20px 0 0;
+}
+
+body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background: black;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -30vw;
+    perspective: 100;
+}
+
+a {
+    top: 12vw;
+    font-size: 5vw;
+    font-family: Helvetica;
+    font-weight: 100;
+    display: block;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    line-height: 3.938vw;
+    background: radial-gradient(
+        circle at center,
+        rgba(249, 230, 181) 0%,
+        rgba(237, 218, 137, 0.8) 25%,
+        rgba(90, 64, 18) 50%,
+        rgba(0, 0, 0) 75%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:first-child {
+    transform: rotateX(-110deg);
+    transform-origin: center bottom;
+    color: transparent;
+    user-select: none;
+    /* text-shadow: 0 0 1px hsla(201, 3%, 30%, 0.6),
+        0 -7px 10px hsla(201, 3%, 30%, 0.3); */
+    background: radial-gradient(
+        circle at center,
+        rgba(249, 230, 181, 0.4) 0%,
+        rgba(237, 218, 137, 0.4) 25%,
+        rgba(90, 64, 18, 0.4) 50%,
+        rgba(0, 0, 0, 0.4) 75%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    cursor: pointer;
+    text-decoration: none;
+    /* position: relative; */
+}
