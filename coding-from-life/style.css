@@ -1,0 +1,350 @@
+/*
+  Coding from Life – Sketch 2: fluid layout
+
+  For sketch 2 you'll be positioning elements relative to a fluid container. This
+  means you'll need to use percentages when positioning and sizing elements within
+  your frame.
+*/
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+/* img {
+    position: absolute;
+    z-index: -1;
+    width: 90vw;
+    opacity: 50%;
+} */
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.container > * {
+    position: relative;
+}
+
+.mirror {
+    width: 25vw;
+    height: 25vw;
+    top: -15vw;
+    left: 40vw;
+    background: rgb(233, 226, 219);
+    border-radius: 50%;
+    border: solid 1.5vw goldenrod;
+}
+
+.vase-top {
+    width: 5vw;
+    height: 10vw;
+    bottom: 5vw;
+    left: 45vw;
+    background-color: lightseagreen;
+}
+
+.vase-middle {
+    width: 0;
+    height: 0;
+    bottom: 5vw;
+    left: 45vw;
+    border-left: 2.5vw solid transparent;
+    border-right: 2.5vw solid transparent;
+    border-top: 2.5vw solid lightseagreen;
+}
+
+.vase-bottom {
+    width: 0;
+    height: 0;
+    bottom: 6vw;
+    left: 45vw;
+    border-left: 2.5vw solid transparent;
+    border-right: 2.5vw solid transparent;
+    border-bottom: 2.5vw solid lightseagreen;
+}
+
+.candle-wick {
+    width: 0.2vw;
+    height: 0.5vw;
+    bottom: 19.5vw;
+    left: 40vw;
+    background-color: black;
+}
+
+.candle-wax {
+    width: 1.2vw;
+    height: 5vw;
+    bottom: 19.5vw;
+    left: 39.5%;
+    background-color: white;
+    border-radius: 0.1vw;
+}
+
+.candle-holder {
+    width: 1.7vw;
+    height: 4vw;
+    bottom: 20vw;
+    left: 39.25%;
+    background: linear-gradient(
+        90deg,
+        rgba(90, 64, 18, 1) 0%,
+        rgba(198, 168, 82, 1) 35%,
+        rgba(237, 218, 137, 1) 50%,
+        rgba(198, 168, 82, 1) 65%,
+        rgba(90, 64, 18, 1) 100%
+    );
+    border-radius: 0.2vw;
+}
+
+.candle-stem {
+    z-index: 1;
+    width: 0.3vw;
+    height: 9vw;
+    bottom: 20vw;
+    left: 40vw;
+    background-color: rgba(198, 168, 82, 1);
+}
+
+.candle-base {
+    width: 7vw;
+    height: 2vw;
+    bottom: 21.5vw;
+    left: 36%;
+    border: solid 0.5vw rgba(198, 168, 82, 1);
+    border-radius: 50%;
+}
+
+.candle-2-wick {
+    width: 0.2vw;
+    height: 0.5vw;
+    bottom: 48vw;
+    left: 55vw;
+    background-color: black;
+}
+
+.candle-2-wax {
+    width: 1.2vw;
+    height: 5vw;
+    bottom: 48vw;
+    left: 54.5%;
+    background-color: white;
+    border-radius: 0.1vw;
+}
+
+.candle-2-holder {
+    z-index: 2;
+    width: 1.7vw;
+    height: 4vw;
+    bottom: 48.5vw;
+    left: 54.25%;
+    background: linear-gradient(
+        90deg,
+        rgba(90, 64, 18, 1) 0%,
+        rgba(198, 168, 82, 1) 35%,
+        rgba(237, 218, 137, 1) 50%,
+        rgba(198, 168, 82, 1) 65%,
+        rgba(90, 64, 18, 1) 100%
+    );
+    border-radius: 0.2vw;
+}
+
+.candle-2-stem {
+    z-index: 1;
+    width: 0.3vw;
+    height: 15vw;
+    bottom: 50vw;
+    left: 55vw;
+    background-color: rgba(198, 168, 82, 1);
+}
+
+.candle-2-base {
+    width: 7vw;
+    height: 2vw;
+    bottom: 51.5vw;
+    left: 51%;
+    border: solid 0.5vw rgba(198, 168, 82, 1);
+    border-radius: 50%;
+}
+
+.bird-beak {
+    width: 0;
+    height: 0;
+    bottom: 57.2vw;
+    left: 25.6vw;
+    border-left: 0.7vw solid transparent;
+    border-right: 0.7vw solid rgb(90, 53, 4);
+    border-bottom: 0.7vw solid transparent;
+}
+
+.bird-head {
+    width: 2vw;
+    height: 2vw;
+    bottom: 58vw;
+    left: 25vw;
+    background-color: rgb(90, 53, 4);
+    border-radius: 50%;
+}
+
+.bird-body {
+    width: 5vw;
+    height: 3vw;
+    bottom: 59vw;
+    left: 21vw;
+    background-color: rgb(90, 53, 4);
+    border-radius: 50%;
+}
+
+.bird-tail {
+    width: 0.5vw;
+    height: 0;
+    bottom: 64.2vw;
+    left: 19vw;
+    border-bottom: 4vw solid rgb(90, 53, 4);
+    border-left: 0.5vw solid transparent;
+    border-right: 0.5vw solid transparent;
+    transform: rotate(130deg);
+}
+
+.bird-stem-top {
+    width: 0.3vw;
+    height: 4vw;
+    bottom: 64vw;
+    left: 23.5vw;
+    z-index: 1;
+    background-color: rgb(90, 53, 4);
+}
+
+.bird-stem-bottom {
+    width: 0.3vw;
+    height: 0.3vw;
+    bottom: 64.12vw;
+    left: 23.5vw;
+    z-index: 1;
+    background-color: rgb(90, 53, 4);
+    border-radius: 50%;
+}
+
+.bird-base-top {
+    width: 6vw;
+    height: 1vw;
+    bottom: 64.5vw;
+    left: 21.003vw;
+    transform: skew(-315deg);
+    background: rgb(115, 81, 37);
+}
+
+.bird-base-left {
+    width: 1vw;
+    height: 1vw;
+    bottom: 65vw;
+    left: 20.5vw;
+    background: rgb(135, 100, 54);
+    transform: skew(0deg, 45deg);
+}
+
+.bird-base-front {
+    width: 6vw;
+    height: 1vw;
+    bottom: 65.52vw;
+    left: 21.5vw;
+    background: rgb(60, 40, 14);
+}
+
+.table-top {
+    width: 80vw;
+    height: 0;
+    bottom: 77vw;
+    left: -37vw;
+    z-index: -1;
+    border-bottom: 15vw solid rgb(231, 180, 187);
+    border-left: 20vw solid transparent;
+    border-right: 20vw solid transparent;
+}
+
+.table-side {
+    width: 85vw;
+    height: 2vw;
+    bottom: 77vw;
+    left: -2vw;
+    background-color: rgb(217, 161, 168);
+}
+
+.leaf-1 {
+    width: 5vw;
+    height: 5vw;
+    bottom: 110vw;
+    left: 39vw;
+    border-radius: 0 3vw;
+    background-color: green;
+}
+
+.leaf-2 {
+    width: 5vw;
+    height: 5vw;
+    bottom: 122vw;
+    left: 37vw;
+    border-radius: 0 3vw;
+    background-color: yellowgreen;
+}
+
+.leaf-3 {
+    width: 5vw;
+    height: 5vw;
+    bottom: 133vw;
+    left: 40vw;
+    border-radius: 0 3vw;
+    background-color: green;
+}
+
+.leaf-4 {
+    width: 5vw;
+    height: 5vw;
+    bottom: 138vw;
+    left: 48vw;
+    border-radius: 3vw 0;
+    background-color: yellowgreen;
+}
+
+.leaf-5 {
+    width: 5vw;
+    height: 5vw;
+    bottom: 136vw;
+    left: 51vw;
+    border-radius: 3vw 0;
+    background-color: green;
+}
+
+.leaf-6 {
+    width: 5vw;
+    height: 5vw;
+    bottom: 112vw;
+    left: 62vw;
+    border-radius: 3vw 0;
+    background-color: yellowgreen;
+}
+
+.flower-stem {
+    width: 0.5vw;
+    height: 6vw;
+    bottom: 140vw;
+    left: 46.4vw;
+    background-color: yellowgreen;
+}
+
+.flower {
+    width: 3vw;
+    height: 3vw;
+    bottom: 152vw;
+    left: 44vw;
+    background-color: pink;
+    border-radius: 50%;
+    border: 1vw solid coral;
+}

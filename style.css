@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nabla&display=swap");
+
 html {
     overflow: hidden;
 }
@@ -8,7 +10,21 @@ body {
 }
 
 h1 {
-    font-family: "Montserrat", sans-serif;
+    /* font-family: "Montserrat", sans-serif; */
+    font-family: "Nabla", cursive;
+}
+
+.flip-1 {
+    animation: flip-1 7s linear infinite;
+}
+
+@keyframes flip-1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .text {
