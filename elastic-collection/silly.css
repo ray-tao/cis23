@@ -1,0 +1,106 @@
+body {
+	background-color: #b7f04c;
+}
+
+.home-icon {
+	color: #e3ffb3;
+}
+
+.menu-icon {
+	background-color: #e3ffb3;
+}
+
+.stoop-comments > li > div {
+	background-color: #b7f04c;
+}
+
+.stoop-container {
+	background-color: #e3ffb3;
+}
+
+/* Lamp */
+.stoop-container:nth-child(1) {
+	top: 10vw;
+	left: 70%;
+}
+
+/* Shredder */
+.stoop-container:nth-child(2) {
+	top: 30vw;
+	left: 30%;
+}
+
+/* Table */
+.stoop-container:nth-child(3) {
+	top: 70vw;
+	left: 10%;
+}
+
+/* Mouth */
+.stoop-container:nth-child(4) {
+	top: 75vw;
+	left: 70%;
+}
+
+/* Pizza */
+.stoop-container:nth-child(5) {
+	top: 120vw;
+	left: 45%;
+}
+
+/* Rocks */
+.stoop-container:nth-child(6) {
+	top: 150vw;
+	left: 5%;
+}
+
+/* Fax machine */
+.stoop-container:nth-child(7) {
+	top: 170vw;
+	left: 60%;
+}
+
+.gem {
+	width: 4%;
+	position: absolute;
+}
+
+.gem-1 {
+	top: 10vw;
+	left: 50%;
+}
+
+.gem-2 {
+	top: 30vw;
+	left: 15%;
+}
+
+.gem-3 {
+	top: 50vw;
+	left: 70%;
+}
+
+.gem-4 {
+	top: 70vw;
+	left: 55%;
+}
+
+.gem-5 {
+	top: 100vw;
+	left: 43%;
+}
+
+.gem-6 {
+	top: 120vw;
+	left: 85%;
+}
+
+.gem-7 {
+	top: 135vw;
+	left: 20%;
+}
+
+.gem-8 {
+	top: 157vw;
+	left: 70%;
+}

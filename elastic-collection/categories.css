@@ -1,0 +1,417 @@
+/* Just to make the demo easier to work with. */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat Alternates', sans-serif;
+	background-color: blanchedalmond;
+}
+
+.home-icon {
+	position: fixed;
+	top: 15px;
+	right: 15px;
+	z-index: 50;
+	width: min(5vw, 50px);
+	height: min(5vw, 50px);
+	aspect-ratio: 1/1;
+}
+
+.menu-background {
+	position: fixed;
+	top: 10px;
+	left: 1%;
+	z-index: 51;
+}
+
+.show-menu.menu-background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 51;
+	background-color: rgb(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+	position: fixed;
+	top: 15px;
+	left: 15px;
+	z-index: 50;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+
+	width: 100px;
+	background-color: rgb(238, 204, 154);
+	aspect-ratio: 1/1;
+	clip-path: polygon(78% 0, 100% 35%, 50% 100%, 0 35%, 22% 0);
+}
+
+.menu-icon > svg {
+	width: 80px;
+	height: 80px;
+	padding-left: 3px;
+	aspect-ratio: 1/1;
+}
+
+.menu-icon > h1 {
+	margin-top: 20%;
+	font-size: min(5vw, 14px);
+	text-align: center;
+}
+
+.menu-content {
+	position: fixed;
+	pointer-events: none;
+	list-style-type: none;
+	top: 0px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}
+
+.show-menu .menu-content {
+	position: fixed;
+	pointer-events: initial;
+	opacity: 1;
+}
+
+.menu-content > li > a {
+	visibility: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+	transition: left 0.5s ease, top 0.5s ease, visibility 0.4s ease;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(255, 255, 255);
+	border-radius: 50%;
+	width: min(10vw, 80px);
+	height: min(10vw, 80px);
+	font-size: min(1.5vw, 12px);
+	aspect-ratio: 1/1;
+	z-index: 40;
+	text-align: center;
+	text-decoration: none;
+}
+
+.show-menu .menu-content > li > a {
+	padding: 10px;
+	visibility: visible;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	border-radius: 50%;
+	width: min(10vw, 80px);
+	height: min(10vw, 80px);
+	font-size: min(1.5vw, 12px);
+	aspect-ratio: 1/1;
+	z-index: 40;
+	text-align: center;
+	text-decoration: none;
+}
+
+.show-menu .menu-content > li:nth-child(1) > a {
+	/* cute */
+	top: min(1vw, 2%);
+	left: 50%;
+}
+
+.show-menu .menu-content > li:nth-child(2) > a {
+	/* mood */
+	top: min(17vw, 15%);
+	left: 48%;
+}
+
+.show-menu .menu-content > li:nth-child(3) > a {
+	/* silly */
+	top: min(32vw, 28%);
+	left: 42%;
+}
+
+.show-menu .menu-content > li:nth-child(4) > a {
+	/* scary */
+	top: min(45vw, 40%);
+	left: 35%;
+}
+
+.show-menu .menu-content > li:nth-child(5) > a {
+	/* nsfw */
+	top: min(55vw, 50%);
+	left: 25%;
+}
+
+.show-menu .menu-content > li:nth-child(6) > a {
+	/* toilets */
+	top: min(62vw, 55%);
+	left: 14%;
+}
+
+.show-menu .menu-content > li:nth-child(7) > a {
+	/* questionable */
+	top: min(65vw, 57%);
+	left: 2%;
+}
+
+.cute-link {
+	color: rgb(255, 147, 151);
+}
+.mood-link {
+	color: rgb(255, 186, 147);
+}
+.silly-link {
+	color: rgb(183, 240, 76);
+}
+
+.scary-link {
+	color: rgb(100, 225, 255);
+}
+
+.nsfw-link {
+	color: rgb(154, 181, 255);
+}
+
+.cursed-link {
+	color: rgb(57, 192, 255);
+}
+
+.toilet-link {
+	color: rgb(198, 134, 255);
+}
+
+.questionable-link {
+	color: rgb(255, 179, 255);
+}
+
+.stoop-container {
+	position: absolute;
+	padding: 1vw;
+	cursor: pointer;
+	width: fit-content;
+	margin: 0;
+}
+
+.stoop-img {
+	width: max(25vw, 100px);
+}
+
+.stoop-container,
+.stoop-img {
+	clip-path: polygon(
+		12% 1%,
+		73% 8%,
+		90% 28%,
+		83% 66%,
+		70% 90%,
+		29% 94%,
+		0% 80%,
+		9% 33%
+	);
+
+	transition: clip-path 0.2s;
+}
+
+.stoop-info {
+	display: none;
+	flex-direction: column;
+	gap: 3vw;
+}
+
+.stoop-headers {
+	display: flex;
+	flex-direction: column;
+	gap: 1vw;
+}
+
+.stoop-date-location {
+	display: flex;
+	flex-direction: column;
+	gap: 1vw;
+}
+
+.stoop-comments {
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	gap: 2vw;
+}
+
+.stoop-comments > li {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 2vw;
+}
+
+.stoop-comments > li > div {
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	border-radius: 20px;
+}
+
+@media screen and (min-width: 800px) {
+	.stoop-comments > li > div {
+		max-width: 500px;
+	}
+}
+
+.stoop-container:nth-child(1),
+.stoop-container:nth-child(1) > .stoop-img {
+	clip-path: polygon(
+		35% 0,
+		79% 3%,
+		100% 43%,
+		92% 70%,
+		69% 95%,
+		31% 100%,
+		7% 75%,
+		5% 23%
+	);
+}
+
+.stoop-container:nth-child(2),
+.stoop-container:nth-child(2) > .stoop-img {
+	clip-path: polygon(
+		35% 9%,
+		79% 16%,
+		100% 43%,
+		92% 71%,
+		71% 96%,
+		30% 92%,
+		0 73%,
+		0 39%
+	);
+}
+
+.stoop-container:nth-child(3),
+.stoop-container:nth-child(3) > .stoop-img {
+	clip-path: polygon(
+		8% 28%,
+		33% 0,
+		81% 7%,
+		100% 31%,
+		84% 100%,
+		39% 100%,
+		16% 89%,
+		17% 59%
+	);
+}
+
+.stoop-container:nth-child(4),
+.stoop-container:nth-child(4) > .stoop-img {
+	clip-path: polygon(
+		5% 14%,
+		57% 0,
+		86% 8%,
+		86% 41%,
+		100% 74%,
+		67% 100%,
+		12% 100%,
+		0 42%
+	);
+}
+
+.stoop-container:nth-child(5),
+.stoop-container:nth-child(5) > .stoop-img {
+	clip-path: polygon(
+		28% 0,
+		70% 0,
+		100% 18%,
+		100% 50%,
+		65% 100%,
+		36% 100%,
+		10% 78%,
+		0 29%
+	);
+}
+
+.stoop-container:nth-child(6),
+.stoop-container:nth-child(6) > .stoop-img {
+	clip-path: polygon(
+		31% 10%,
+		74% 13%,
+		100% 29%,
+		100% 57%,
+		72% 82%,
+		31% 88%,
+		0 71%,
+		0 29%
+	);
+}
+
+.stoop-container:nth-child(7),
+.stoop-container:nth-child(7) > .stoop-img {
+	clip-path: polygon(
+		4% 12%,
+		33% 0,
+		94% 0,
+		100% 31%,
+		89% 89%,
+		39% 100%,
+		13% 90%,
+		0 66%
+	);
+}
+
+#show-stoop {
+	width: 100vw;
+	height: 100vh;
+	left: 0;
+	top: 0;
+	position: fixed;
+	z-index: 100;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	gap: 5vw;
+	font-size: min(3vw, 20px);
+	padding: 3rem;
+}
+
+#show-stoop .stoop-info {
+	display: flex;
+}
+
+#show-stoop,
+#show-stoop > .stoop-img {
+	clip-path: polygon(
+		0 0,
+		100% 0,
+		100% 0,
+		100% 100%,
+		100% 100%,
+		0 100%,
+		0 100%,
+		0 0
+	) !important;
+}
+#show-stoop > .stoop-img {
+	width: 40%;
+}
+
+@media screen and (max-width: 500px) {
+	#show-stoop {
+		flex-direction: column;
+	}
+	#show-stoop > .stoop-img {
+		width: 70%;
+	}
+}

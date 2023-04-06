@@ -1,0 +1,119 @@
+/* Just to make the demo easier to work with. */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat Alternates', sans-serif;
+	background-color: blanchedalmond;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 51;
+	width: 100svw;
+	height: 100svh;
+	gap: 5vw;
+}
+
+.menu-icon {
+	z-index: 50;
+	display: flex;
+	justify-content: center;
+	width: 350px;
+	height: 350px;
+	background-color: rgb(238, 204, 154);
+	aspect-ratio: 1/1;
+	clip-path: polygon(78% 0, 100% 35%, 50% 100%, 0 35%, 22% 0);
+}
+
+.menu-icon > svg {
+	width: 280px;
+	height: 280px;
+	padding-left: 5px;
+	aspect-ratio: 1/1;
+}
+
+.menu-content {
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+	justify-content: space-evenly;
+	width: 100%;
+}
+@media screen and (max-width: 700px) {
+	.menu-content {
+		width: auto;
+		flex-direction: column;
+		gap: 10px;
+	}
+	body {
+		overflow-y: scroll;
+	}
+	.menu-icon {
+		width: 150px;
+		height: 150px;
+	}
+	.menu-icon > svg {
+		width: 120px;
+		height: 120px;
+		padding-left: 5px;
+		aspect-ratio: 1/1;
+	}
+}
+
+.menu-content > li > a {
+	transition: left 0.5s ease, top 0.5s ease, visibility 0.4s ease;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(255, 255, 255);
+	border-radius: 50%;
+	width: max(10vw, 10vh);
+	height: max(10vw, 10vh);
+	font-size: max(1.5vw, 12px);
+	aspect-ratio: 1/1;
+	z-index: 40;
+	text-align: center;
+	text-decoration: none;
+}
+
+.cute-link {
+	color: rgb(255, 147, 151);
+}
+.mood-link {
+	color: rgb(255, 186, 147);
+}
+.silly-link {
+	color: rgb(183, 240, 76);
+}
+
+.scary-link {
+	color: rgb(100, 225, 255);
+}
+
+.nsfw-link {
+	color: rgb(154, 181, 255);
+}
+
+.cursed-link {
+	color: rgb(57, 192, 255);
+}
+
+.toilet-link {
+	color: rgb(198, 134, 255);
+}
+
+.questionable-link {
+	color: rgb(255, 179, 255);
+}
