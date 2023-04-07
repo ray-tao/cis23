@@ -1,16 +1,19 @@
-function showMenu() {
-	let menu = document.querySelector('.menu-background')
-	if (menu.classList.contains('show-menu')) {
-		menu.classList.remove('show-menu')
+function showSidebar() {
+	let menu = document.querySelector('.sidebar')
+	if (menu.classList.contains('show-sidebar')) {
+		menu.classList.remove('show-sidebar')
 	} else {
-		menu.classList.add('show-menu')
+		menu.classList.add('show-sidebar')
 	}
 }
 
-function showStoopInfo(stoop) {
-	if (stoop.id === 'show-stoop') {
-		stoop.id = ''
+function showStoopInfo(element) {
+	if (
+		element.parentElement.id === 'show-stoop' &&
+		element.classList.contains('x-icon')
+	) {
+		element.parentElement.id = ''
 	} else {
-		stoop.id = 'show-stoop'
+		element.id = 'show-stoop'
 	}
 }

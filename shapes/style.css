@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Nabla&display=swap");
+
+html {
+    overflow: hidden;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+h1 {
+    font-family: "Nabla", cursive;
+    font-size: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(172, 79, 172);
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(192, 99, 192);
+}
+
+.shapes {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.square1 {
+    top: -20%;
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+    rotate: 45deg;
+    background-color: plum;
+}
+
+.square2 {
+    top: 20%;
+    right: 5%;
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    rotate: 45deg;
+    background-color: lightsalmon;
+}
+
+.circle1 {
+    top: 40%;
+    left: -7%;
+    position: absolute;
+    width: 45vw;
+    height: 45vw;
+    border-radius: 50%;
+    background-color: lightpink;
+}
+
+.circle2 {
+    bottom: 35%;
+    right: 30%;
+    position: absolute;
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    background-color: powderblue;
+}
+
+.circle3 {
+    bottom: 10%;
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    background-color: lightcoral;
+}
+
+.rectangle1 {
+    top: 12%;
+    left: -10%;
+    position: absolute;
+    width: 37vw;
+    height: 10vw;
+    border-radius: 0vw 15vw;
+    background-color: lightseagreen;
+}
+
+.rectangle2 {
+    bottom: 6%;
+    right: -10%;
+    position: absolute;
+    width: 90vw;
+    height: 10vw;
+    border-radius: 0vw 15vw;
+    background-color: lightseagreen;
+}
+
+.rectangle3 {
+    top: -10%;
+    left: 3%;
+    position: absolute;
+    width: 5vw;
+    height: 50vw;
+    border-radius: 15vw 0vw;
+    background-color: lightgreen;
+}
+
+.rectangle4 {
+    bottom: -10%;
+    left: 12%;
+    position: absolute;
+    width: 5vw;
+    height: 30vw;
+    border-radius: 50vw 0vw;
+    background-color: lightgreen;
+}
+
+.rectangle5 {
+    top: -10%;
+    right: 20%;
+    position: absolute;
+    width: 5vw;
+    height: 30vw;
+    border-radius: 0vw 15vw;
+    background-color: rgb(255, 241, 110);
+}
+
+.rectangle6 {
+    top: -10%;
+    right: 10%;
+    position: absolute;
+    width: 5vw;
+    height: 50vw;
+    border-radius: 15vw 0vw;
+    background-color: rgb(255, 241, 110);
+}
+
+.square1:hover {
+    background-color: transparent;
+    outline: outset 1vw plum;
+    outline-offset: -1vw;
+}
+
+.square2:hover {
+    background-color: transparent;
+    outline: double lightsalmon 1vw;
+    outline-offset: -1vw;
+}
+
+.circle1:hover {
+    background-color: transparent;
+    outline: dotted lightpink 1vw;
+    outline-offset: -1vw;
+}
+
+.circle2:hover {
+    background-color: transparent;
+    outline: dashed powderblue 1vw;
+    outline-offset: -1vw;
+}
+
+.circle3:hover {
+    background-color: transparent;
+    outline: double lightcoral 1vw;
+    outline-offset: -1vw;
+}
+
+.rectangle1:hover,
+.rectangle2:hover {
+    background-color: transparent;
+    outline: groove lightseagreen 1vw;
+    outline-offset: -1vw;
+}
+
+.rectangle3:hover,
+.rectangle4:hover {
+    background-color: transparent;
+    outline: dashed lightgreen 1vw;
+    outline-offset: -1vw;
+}
+
+.rectangle5:hover,
+.rectangle6:hover {
+    background-color: transparent;
+    outline: dotted rgb(255, 241, 110) 1vw;
+    outline-offset: -1vw;
+}
+
+.overlap1 {
+    top: 12%;
+    left: 3%;
+    width: 5vw;
+    height: 10vw;
+    background: lightsalmon;
+    position: absolute;
+}
+
+.overlap2 {
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 8vw;
+    width: 15vw;
+    border-radius: 0 0 10vw 10vw;
+    background-color: sandybrown;
+}
+
+.overlap3 {
+    top: 18.8%;
+    right: 10%;
+    width: 5vw;
+    height: 16.2vw;
+    background-color: lightgreen;
+    border-color: lightgreen;
+    position: absolute;
+}
+
+.overlap3:before {
+    top: -1.75vw;
+    left: 0.72vw;
+    content: "";
+    position: absolute;
+    border-top: 3.55vw solid lightgreen;
+    border-right: 3.55vw solid transparent;
+    rotate: 45deg;
+}
+
+.overlap3:after {
+    bottom: -1.75vw;
+    left: 0.72vw;
+    content: "";
+    position: absolute;
+    border-top: 3.6vw solid lightgreen;
+    border-right: 3.6vw solid transparent;
+    rotate: -135deg;
+}
+
+.overlap4 {
+    bottom: 31vw;
+    right: 19vw;
+    content: "";
+    position: absolute;
+    border-top: 3.6vw solid rgb(147, 147, 255);
+    border-right: 3.6vw solid transparent;
+    rotate: -45deg;
+}
+
+.overlap1:hover {
+    background-color: transparent;
+    outline: double lightsalmon 1vw;
+    outline-offset: -1vw;
+}
+
+.overlap2:hover {
+    background-color: transparent;
+    outline: dotted sandybrown 1vw;
+    outline-offset: -0.5vw;
+}
+
+.overlap3:hover {
+    background-color: transparent;
+    outline: dashed lightgreen 1vw;
+    outline-offset: -1vw;
+}
+
+.overlap4:hover {
+    background-color: transparent;
+    outline: dashed rgb(147, 147, 255) 1vw;
+    outline-offset: -1vw;
+}

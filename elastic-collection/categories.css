@@ -13,16 +13,93 @@
 body {
 	font-family: 'Montserrat Alternates', sans-serif;
 	background-color: blanchedalmond;
+	width: 100svw;
+	height: 100svh;
+	display: flex;
+	justify-content: flex-start;
+	overflow-x: hidden;
 }
 
-.home-icon {
-	position: fixed;
-	top: 15px;
-	right: 15px;
-	z-index: 50;
-	width: min(5vw, 50px);
-	height: min(5vw, 50px);
-	aspect-ratio: 1/1;
+.sidebar {
+	position: sticky;
+	left: 20px;
+	height: fit-content;
+	width: min(10vw, 205px);
+	z-index: 100;
+}
+
+.gem {
+	width: 30px;
+}
+
+.sidebar > ul {
+	width: 100%;
+	list-style-type: none;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-direction: column;
+	gap: 25px;
+}
+
+.sidebar > ul > li {
+	box-sizing: content-box;
+	padding: 1vw;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.sidebar > ul > li > a {
+	text-decoration: none;
+	display: flex;
+	color: black;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	gap: 5px;
+}
+
+.hamburger-menu {
+	display: none;
+	position: absolute;
+}
+
+@media screen and (max-width: 800px) {
+	.sidebar > ul > li {
+		display: none;
+	}
+	.menu-icon {
+		cursor: pointer;
+	}
+	.hamburger-menu {
+		display: block;
+		width: 25px;
+		height: 25px;
+		cursor: pointer;
+	}
+	.show-sidebar {
+		z-index: 150;
+	}
+
+	.show-sidebar.sidebar {
+		left: 0px;
+	}
+	.show-sidebar > ul > li {
+		display: flex;
+	}
+
+	.show-sidebar > ul {
+		padding-bottom: 25px;
+		padding-left: 15px;
+		padding-right: 15px;
+
+		width: fit-content;
+		align-items: center;
+		border-bottom-left-radius: 100px;
+		border-bottom-right-radius: 100px;
+		background-color: rgb(255, 255, 255, 0.7);
+	}
 }
 
 .menu-background {
@@ -39,73 +116,31 @@ body {
 	width: 100%;
 	height: 100%;
 	z-index: 51;
-	background-color: rgb(255, 255, 255, 0.3);
 }
 
 .menu-icon {
-	position: fixed;
-	top: 15px;
-	left: 15px;
-	z-index: 50;
-	cursor: pointer;
 	display: flex;
 	justify-content: center;
-
-	width: 100px;
-	background-color: rgb(238, 204, 154);
+	align-items: center;
+	width: 140px;
 	aspect-ratio: 1/1;
-	clip-path: polygon(78% 0, 100% 35%, 50% 100%, 0 35%, 22% 0);
 }
 
 .menu-icon > svg {
-	width: 80px;
-	height: 80px;
-	padding-left: 3px;
 	aspect-ratio: 1/1;
+	margin: 0 auto;
 }
 
 .menu-icon > h1 {
 	margin-top: 20%;
-	font-size: min(5vw, 14px);
+	font-size: min(5vw, 12px);
 	text-align: center;
-}
-
-.menu-content {
-	position: fixed;
-	pointer-events: none;
-	list-style-type: none;
-	top: 0px;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	opacity: 0;
-	transition: opacity 0.5s ease;
 }
 
 .show-menu .menu-content {
 	position: fixed;
 	pointer-events: initial;
 	opacity: 1;
-}
-
-.menu-content > li > a {
-	visibility: hidden;
-	position: absolute;
-	left: 0;
-	top: 0;
-	transition: left 0.5s ease, top 0.5s ease, visibility 0.4s ease;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: rgb(255, 255, 255);
-	border-radius: 50%;
-	width: min(10vw, 80px);
-	height: min(10vw, 80px);
-	font-size: min(1.5vw, 12px);
-	aspect-ratio: 1/1;
-	z-index: 40;
-	text-align: center;
-	text-decoration: none;
 }
 
 .show-menu .menu-content > li > a {
@@ -206,24 +241,9 @@ body {
 	margin: 0;
 }
 
-.stoop-img {
-	width: max(25vw, 100px);
-}
-
-.stoop-container,
-.stoop-img {
-	clip-path: polygon(
-		12% 1%,
-		73% 8%,
-		90% 28%,
-		83% 66%,
-		70% 90%,
-		29% 94%,
-		0% 80%,
-		9% 33%
-	);
-
-	transition: clip-path 0.2s;
+.stoop-img,
+.stoop-full-img {
+	width: min(35vw, 700px);
 }
 
 .stoop-info {
@@ -242,6 +262,19 @@ body {
 	display: flex;
 	flex-direction: column;
 	gap: 1vw;
+}
+
+.stoop-date-location > h3 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 1vw;
+}
+
+.stoop-date-location > h3 > svg {
+	width: min(4vw, 30px);
+	height: min(4vw, 30px);
+	aspect-ratio: 1/1;
 }
 
 .stoop-comments {
@@ -272,104 +305,6 @@ body {
 	}
 }
 
-.stoop-container:nth-child(1),
-.stoop-container:nth-child(1) > .stoop-img {
-	clip-path: polygon(
-		35% 0,
-		79% 3%,
-		100% 43%,
-		92% 70%,
-		69% 95%,
-		31% 100%,
-		7% 75%,
-		5% 23%
-	);
-}
-
-.stoop-container:nth-child(2),
-.stoop-container:nth-child(2) > .stoop-img {
-	clip-path: polygon(
-		35% 9%,
-		79% 16%,
-		100% 43%,
-		92% 71%,
-		71% 96%,
-		30% 92%,
-		0 73%,
-		0 39%
-	);
-}
-
-.stoop-container:nth-child(3),
-.stoop-container:nth-child(3) > .stoop-img {
-	clip-path: polygon(
-		8% 28%,
-		33% 0,
-		81% 7%,
-		100% 31%,
-		84% 100%,
-		39% 100%,
-		16% 89%,
-		17% 59%
-	);
-}
-
-.stoop-container:nth-child(4),
-.stoop-container:nth-child(4) > .stoop-img {
-	clip-path: polygon(
-		5% 14%,
-		57% 0,
-		86% 8%,
-		86% 41%,
-		100% 74%,
-		67% 100%,
-		12% 100%,
-		0 42%
-	);
-}
-
-.stoop-container:nth-child(5),
-.stoop-container:nth-child(5) > .stoop-img {
-	clip-path: polygon(
-		28% 0,
-		70% 0,
-		100% 18%,
-		100% 50%,
-		65% 100%,
-		36% 100%,
-		10% 78%,
-		0 29%
-	);
-}
-
-.stoop-container:nth-child(6),
-.stoop-container:nth-child(6) > .stoop-img {
-	clip-path: polygon(
-		31% 10%,
-		74% 13%,
-		100% 29%,
-		100% 57%,
-		72% 82%,
-		31% 88%,
-		0 71%,
-		0 29%
-	);
-}
-
-.stoop-container:nth-child(7),
-.stoop-container:nth-child(7) > .stoop-img {
-	clip-path: polygon(
-		4% 12%,
-		33% 0,
-		94% 0,
-		100% 31%,
-		89% 89%,
-		39% 100%,
-		13% 90%,
-		0 66%
-	);
-}
-
 #show-stoop {
 	width: 100vw;
 	height: 100vh;
@@ -384,34 +319,90 @@ body {
 	gap: 5vw;
 	font-size: min(3vw, 20px);
 	padding: 3rem;
+	cursor: initial;
+}
+
+.stoop-full-img {
+	display: none;
+}
+
+#show-stoop > .stoop-full-img {
+	display: block;
 }
 
 #show-stoop .stoop-info {
 	display: flex;
 }
 
-#show-stoop,
 #show-stoop > .stoop-img {
-	clip-path: polygon(
-		0 0,
-		100% 0,
-		100% 0,
-		100% 100%,
-		100% 100%,
-		0 100%,
-		0 100%,
-		0 0
-	) !important;
+	display: none;
 }
-#show-stoop > .stoop-img {
+
+#show-stoop > .stoop-full-img {
 	width: 40%;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
 	#show-stoop {
 		flex-direction: column;
 	}
-	#show-stoop > .stoop-img {
+
+	#show-stoop > .stoop-full-img {
 		width: 70%;
 	}
+}
+.x-icon {
+	display: none;
+	position: absolute;
+	z-index: 100;
+	width: max(3vw, 40px);
+	height: max(3vw, 40px);
+}
+#show-stoop > .x-icon {
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	top: 25px;
+	right: 25px;
+}
+/* Lamp */
+.stoop-container:nth-child(1) {
+	top: 5vw;
+	left: 60%;
+}
+
+/* Shredder */
+.stoop-container:nth-child(2) {
+	top: 27vw;
+	left: 20%;
+}
+
+/* Table */
+.stoop-container:nth-child(3) {
+	top: 75vw;
+	left: 10%;
+}
+
+/* Mouth */
+.stoop-container:nth-child(4) {
+	top: 55vw;
+	left: 60%;
+}
+
+/* Pizza */
+.stoop-container:nth-child(5) {
+	top: 110vw;
+	left: 50%;
+}
+
+/* Rocks */
+.stoop-container:nth-child(6) {
+	top: 130vw;
+	left: 5%;
+}
+
+/* Fax machine */
+.stoop-container:nth-child(7) {
+	top: 160vw;
+	left: 60%;
 }
