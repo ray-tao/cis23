@@ -1,30 +1,30 @@
 body {
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
-	background: radial-gradient(
-			circle at 90% 90%,
-			rgb(255, 162, 162),
-			transparent 40%
-		),
-		radial-gradient(circle at 15% 20%, rgb(255, 162, 162), transparent 35%),
-		radial-gradient(circle at 60% 30%, rgb(255, 162, 162), transparent 35%),
-		radial-gradient(circle at 85% 10%, rgb(255, 162, 162), transparent 35%),
-		radial-gradient(circle at 35% 75%, rgb(255, 162, 162), transparent 45%),
-		radial-gradient(circle at 50% 90%, rgb(255, 162, 162), transparent 25%),
-		radial-gradient(circle at 20% 70%, rgb(255, 153, 153), transparent 15%),
-		radial-gradient(circle at 50% 20%, rgb(255, 153, 153), transparent 35%),
-		radial-gradient(circle at 10% 80%, rgb(255, 153, 153), transparent 50%),
-		radial-gradient(circle at 70% 70%, rgb(255, 153, 153), transparent 45%);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background: radial-gradient(
+            circle at 90% 90%,
+            rgb(255, 162, 162),
+            transparent 40%
+        ),
+        radial-gradient(circle at 15% 20%, rgb(255, 162, 162), transparent 35%),
+        radial-gradient(circle at 60% 30%, rgb(255, 162, 162), transparent 35%),
+        radial-gradient(circle at 85% 10%, rgb(255, 162, 162), transparent 35%),
+        radial-gradient(circle at 35% 75%, rgb(255, 162, 162), transparent 45%),
+        radial-gradient(circle at 50% 90%, rgb(255, 162, 162), transparent 25%),
+        radial-gradient(circle at 20% 70%, rgb(255, 153, 153), transparent 15%),
+        radial-gradient(circle at 50% 20%, rgb(255, 153, 153), transparent 35%),
+        radial-gradient(circle at 10% 80%, rgb(255, 153, 153), transparent 50%),
+        radial-gradient(circle at 70% 70%, rgb(255, 153, 153), transparent 45%);
 }
 
 .home-icon {
-	color: #ffc0c0;
+    color: #ffc0c0;
 }
 
 .stoop-comments > li > div {
-	background-color: #ff9a9a;
+    background-color: #ff9a9a;
 }
 
 #show-stoop {
-	background-color: #ffc0c0;
+    background-color: #ffc0c0;
 }

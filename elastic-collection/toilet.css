@@ -1,31 +1,30 @@
 body {
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
-
-	background: radial-gradient(
-			circle at 90% 90%,
-			rgb(180, 255, 245),
-			transparent 40%
-		),
-		radial-gradient(circle at 15% 20%, rgb(180, 255, 245), transparent 35%),
-		radial-gradient(circle at 60% 30%, rgb(180, 255, 245), transparent 35%),
-		radial-gradient(circle at 85% 10%, rgb(180, 255, 245), transparent 25%),
-		radial-gradient(circle at 35% 75%, rgb(180, 255, 245), transparent 45%),
-		radial-gradient(circle at 50% 90%, rgb(180, 255, 245), transparent 15%),
-		radial-gradient(circle at 50% 20%, rgb(226, 254, 255), transparent 15%),
-		radial-gradient(circle at 10% 80%, rgb(226, 254, 255), transparent 50%),
-		radial-gradient(circle at 70% 70%, rgb(226, 254, 255), transparent 45%),
-		radial-gradient(circle at 20% 70%, rgb(226, 254, 255), transparent 15%);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background: radial-gradient(
+            circle at 90% 90%,
+            rgb(255, 162, 195),
+            transparent 40%
+        ),
+        radial-gradient(circle at 15% 20%, rgb(255, 162, 195), transparent 35%),
+        radial-gradient(circle at 60% 30%, rgb(255, 162, 195), transparent 35%),
+        radial-gradient(circle at 85% 10%, rgb(255, 162, 195), transparent 35%),
+        radial-gradient(circle at 35% 75%, rgb(255, 162, 195), transparent 45%),
+        radial-gradient(circle at 50% 90%, rgb(255, 162, 195), transparent 25%),
+        radial-gradient(circle at 20% 70%, rgb(255, 153, 192), transparent 15%),
+        radial-gradient(circle at 50% 20%, rgb(255, 153, 192), transparent 35%),
+        radial-gradient(circle at 10% 80%, rgb(255, 153, 192), transparent 50%),
+        radial-gradient(circle at 70% 70%, rgb(255, 153, 192), transparent 45%);
 }
 
 .home-icon {
-	color: #d7b9ff;
+    color: #ffcde6;
 }
 
 .stoop-comments > li > div {
-	background-color: #bb86ff;
+    background-color: #f3accf;
 }
 
 #show-stoop {
-	background-color: #d7b9ff;
+    background-color: #ffcde6;
 }

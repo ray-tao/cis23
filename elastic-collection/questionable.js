@@ -1,14 +1,14 @@
 function renderItems(stoops) {
-	const stoopsElement = document.getElementById('stoops')
+    const stoopsElement = document.getElementById("stoops");
 
-	stoops.forEach(function (stoop) {
-		if (stoop.category === 'questionable') {
-			const itemDetails = `
+    stoops.forEach(function (stoop) {
+        if (stoop.category === "questionable") {
+            const itemDetails = `
 		<section class="stoop-container" onclick="event.stopPropagation(); showStoopInfo(this)">
 		<svg class="x-icon" onclick="event.stopPropagation(); showStoopInfo(this)" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
 		<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
 		</svg>
-		<img class="stoop-img" src="./images/${stoop.img}" />
+		<img class="stoop-img" src="./images/${stoop.img.replace(".jpg", ".png")}" />
 		<img class="stoop-full-img" src="./images/${stoop.img}" />
 		<div class="stoop-info">
 			<div class="stoop-headers">
@@ -29,28 +29,28 @@ function renderItems(stoops) {
 			</div>
 			<ul class="stoop-comments">
 			${stoop.comment
-				.split('\n')
-				.slice(0, 3)
-				.map(function (comment, index) {
-					return `
+                .split("\n")
+                .slice(0, 3)
+                .map(function (comment, index) {
+                    return `
 				<li>
-					<div>${comment}</div>${stoop.user.split('\n')[index]}
-				</li>`
-				})
-				.join('')}
+					<div>${comment}</div>${stoop.user.split("\n")[index]}
+				</li>`;
+                })
+                .join("")}
 			</ul>
 		</div>
 	</section>
-			`
-			stoopsElement.insertAdjacentHTML('beforeend', itemDetails)
-		}
-	})
+			`;
+            stoopsElement.insertAdjacentHTML("beforeend", itemDetails);
+        }
+    });
 }
 
-fetch('./assets/stoops.json')
-	.then(function (response) {
-		return response.json()
-	})
-	.then(function (collection) {
-		renderItems(collection)
-	})
+fetch("./assets/stoops.json")
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (collection) {
+        renderItems(collection);
+    });
