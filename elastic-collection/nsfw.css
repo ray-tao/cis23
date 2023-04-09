@@ -1,7 +1,7 @@
 body {
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    background: radial-gradient(
+    /* background: radial-gradient(
             circle at 90% 90%,
             rgb(255, 198, 167),
             transparent 40%
@@ -14,7 +14,8 @@ body {
         radial-gradient(circle at 20% 70%, rgb(255, 152, 97), transparent 15%),
         radial-gradient(circle at 50% 20%, rgb(255, 152, 97), transparent 25%),
         radial-gradient(circle at 10% 80%, rgb(255, 152, 97), transparent 50%),
-        radial-gradient(circle at 70% 70%, rgb(255, 152, 97), transparent 45%);
+        radial-gradient(circle at 70% 70%, rgb(255, 152, 97), transparent 45%); */
+    background: url(./images/blurredbackgrounds/orangeblurredbackground.png);
 }
 
 .home-icon {

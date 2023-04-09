@@ -8,8 +8,11 @@ function renderItems(stoops) {
 		<svg class="x-icon" onclick="event.stopPropagation(); showStoopInfo(this)" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
 		<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
 		</svg>
-		<img class="stoop-img" src="./images/${stoop.img.replace(".jpg", ".png")}" />
-		<img class="stoop-full-img" src="./images/${stoop.img}" />
+		<img class="stoop-img" src="./images/questionable/${stoop.img.replace(
+            ".jpg",
+            ".png"
+        )}" />
+		<img class="stoop-full-img" src="./images/questionable/${stoop.img}" />
 		<div class="stoop-info">
 			<div class="stoop-headers">
 				<h1>${stoop.heading}</h1>
