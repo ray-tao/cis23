@@ -51,7 +51,7 @@ h1 {
 
 .sidebar > ul > li {
     box-sizing: content-box;
-    padding: 1vw;
+    /* padding: 1vw; */
     display: flex;
     align-items: center;
     gap: 10px;
@@ -72,7 +72,7 @@ h1 {
     position: absolute;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .sidebar > ul > li {
         display: none;
     }
@@ -250,7 +250,7 @@ h1 {
 
 .stoop-img,
 .stoop-full-img {
-    width: min(35vw, 700px);
+    width: min(38vw, 740px);
 }
 
 .stoop-info {
@@ -386,7 +386,7 @@ h1 {
 
 /* Table */
 .stoop-container:nth-child(3) {
-    top: 75vw;
+    top: 80vw;
     left: 10%;
 }
 
@@ -398,18 +398,45 @@ h1 {
 
 /* Pizza */
 .stoop-container:nth-child(5) {
-    top: 110vw;
-    left: 50%;
+    top: 112vw;
+    left: 45%;
 }
 
 /* Rocks */
 .stoop-container:nth-child(6) {
-    top: 130vw;
+    top: 135vw;
     left: 5%;
 }
 
 /* Fax machine */
 .stoop-container:nth-child(7) {
     top: 160vw;
-    left: 60%;
+    left: 50%;
+}
+
+.blobs {
+    position: absolute;
+    width: min(30vw, 700px);
+    opacity: 25%;
+}
+
+#blob-1 {
+    top: -10vw;
+    left: 30%;
+}
+
+#blob-2 {
+    width: min(25vw, 550px);
+    top: 53vw;
+    left: -5%;
+}
+
+#blob-3 {
+    top: 95vw;
+    left: 80%;
+}
+
+#blob-4 {
+    top: 180vw;
+    left: 15%;
 }
