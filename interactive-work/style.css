@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vw;
+    font-family: Helvetica;
+    padding: 5vw;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+.text {
+    width: 50vw;
+}
+
+video {
+    width: 50vw;
+    border: 2.5vw solid black;
+}
+
+.home,
+.mockup {
+    width: 50vw;
+    border: 2.5vw solid black;
+}
+
+.text-covered-shown > * {
+    width: 25vw;
+    border: 2.5vw solid black;
+}
+
+.left {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 750px;
+}
+
+.right {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    height: 750px;
+}
