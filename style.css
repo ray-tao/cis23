@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nabla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap");
 
 html {
     overflow: hidden;
@@ -27,23 +28,6 @@ h1 {
     }
 }
 
-.text {
-    position: relative;
-    width: fit-content;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    font-family: "Montserrat", sans-serif;
-    color: rgb(172, 79, 172);
-    font-size: 15px;
-    row-gap: 1vw;
-    z-index: 100;
-    margin-top: 1.5%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .interaction-title {
     position: absolute;
     width: fit-content;
@@ -51,13 +35,55 @@ h1 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Darumadrop One", cursive;
     color: rgb(172, 79, 172);
     font-size: 15px;
     row-gap: 1vw;
     z-index: 100;
     bottom: 7%;
     right: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.assignment-title {
+    position: absolute;
+    top: 100%;
+    right: -10%;
+    font-size: 30px;
+}
+
+.assignments {
+    position: relative;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    transform: rotate(-45deg);
+    font-family: "Darumadrop One", cursive;
+    color: rgb(125, 45, 125);
+    font-size: 20px;
+    row-gap: 0.5vw;
+    z-index: 100;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projects-title {
+    font-size: 30px;
+}
+
+.projects {
+    position: absolute;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    top: 40%;
+    left: 20%;
+    font-family: "Darumadrop One", cursive;
+    color: rgb(125, 45, 125);
+    font-size: 20px;
+    row-gap: 0.5vw;
+    z-index: 100;
     margin-left: auto;
     margin-right: auto;
 }
@@ -284,7 +310,7 @@ a {
 }
 
 .overlap4 {
-    bottom: 31vw;
+    bottom: 31.5vw;
     right: 19vw;
     content: "";
     position: absolute;
