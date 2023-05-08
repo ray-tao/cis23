@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        DEATH BY MENTAL AND BEHAVIORAL DISORDERS DUE TO ACCIDENTAL POISONING
+        AND OTHER PSYCHOACTIVE SUBSTANCE USE
+    </title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <div class="column-1">
+        <h1 class="title">
+            DEATH BY MENTAL AND BEHAVIORAL DISORDERS DUE TO ACCIDENTAL POISONING
+            AND OTHER PSYCHOACTIVE SUBSTANCE USE
+        </h1>
+        <div class="race-box">
+            <div class="race-row">
+                <div class="race-text">RACE/ETHNICITY</div>
+                <div>
+                    <div id="black"></div>
+                    BLACK, NON-HISPANIC
+                </div>
+                <div>
+                    <div id="white"></div>
+                    WHITE, NON-HISPANIC
+                </div>
+                <div>
+                    <div id="hispanic"></div>
+                    HISPANIC
+                </div>
+                <div>
+                    <div id="other"></div>
+                    OTHER RACE/ETHNICITY
+                </div>
+                <div>
+                    <div id="unknown"></div>
+                    NOT STATED/UNKNOWN
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="column-2">
+        <p id="pixel-info" class="hidden"></p>
+        <main>
+            <p id="no-data-text" class="hidden">[NO DATA]</p>
+        </main>
+    </div>
+    <div class="column-3">
+        <div class="filters">
+            <div class="year-box">
+                <div class="year-text">YEAR</div>
+                <div class="year-row">
+                    <button id="default-year" class="eight" onclick="yearOnClick(event)">2008</button>
+                    <button class="nine" onclick="yearOnClick(event)">2009</button>
+                    <button class="ten" onclick="yearOnClick(event)">2010</button>
+                </div>
+                <div class="year-row">
+                    <button class="eleven" onclick="yearOnClick(event)">2011</button>
+                    <button class="twelve" onclick="yearOnClick(event)">2012</button>
+                    <button class="thirteen" onclick="yearOnClick(event)">2013</button>
+                </div>
+                <div class="year-row">
+                    <button class="fourteen" onclick="yearOnClick(event)">2014</button>
+                    <button class="fifteen" onclick="yearOnClick(event)">2015</button>
+                    <button class="sixteen" onclick="yearOnClick(event)">2016</button>
+                </div>
+                <div class="year-row">
+                    <button class="seventeen" onclick="yearOnClick(event)">2017</button>
+                    <button class="eighteen" onclick="yearOnClick(event)">2018</button>
+                    <button class="nineteen" onclick="yearOnClick(event)">2019</button>
+                </div>
+            </div>
+            <div class="gender-assigned-box">
+                <div class="gender-assigned-text">GENDER ASSIGNED</div>
+                <div class="gender-assigned-row">
+                    <button id="default-gender-assigned" onclick="genderAssignedOnClick(event)">MALE</button>
+                    <button onclick="genderAssignedOnClick(event)">FEMALE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

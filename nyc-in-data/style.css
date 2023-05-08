@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap");
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 15px;
+    background-color: black;
+    min-width: 100svw;
+    min-height: 100svh;
+    overflow-x: hidden;
+    scrollbar-gutter: stable both-edges;
+
+    /* Credits to */
+    /* https://stackoverflow.com/questions/16670931/hide-scroll-bar-but-while-still-being-able-to-scroll/38994837#38994837 */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
+}
+
+/* Credits to */
+/* https://stackoverflow.com/questions/16670931/hide-scroll-bar-but-while-still-being-able-to-scroll/38994837#38994837 */
+body::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+}
+
+.column-1,
+.column-2,
+.column-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.column-1 {
+    justify-content: space-between;
+}
+
+.column-2 {
+    justify-content: center;
+    padding: 0 5vw;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+}
+
+.title {
+    position: sticky;
+    top: 20px;
+    color: white;
+    font-weight: 400;
+    font-size: 17.5px;
+    width: 22vw;
+    max-width: 255px;
+}
+
+.filters {
+    position: sticky;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 20vw;
+    max-width: 200px;
+    height: fit-content;
+}
+
+/* ----------------YEAR---------------- */
+
+.year-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(40, 40, 40);
+    height: fit-content;
+    padding: 7.5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    gap: 7.5px;
+}
+
+.year-text {
+    color: white;
+    padding: 7.5px;
+    text-align: center;
+}
+
+.year-row {
+    display: flex;
+    color: rgb(155, 155, 155);
+    gap: 7.5px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.year-row > button {
+    width: fit-content;
+    color: rgb(155, 155, 155);
+    padding: 7.5px;
+}
+
+.year-row > button:hover,
+.selected-year {
+    background-color: rgb(155, 155, 155) !important;
+    color: black !important;
+}
+
+/* ----------------GENDER ASSIGNED---------------- */
+
+.gender-assigned-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(40, 40, 40);
+    height: fit-content;
+    padding: 7.5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    gap: 7.5px;
+}
+
+.gender-assigned-text {
+    color: white;
+    text-align: center;
+    padding: 7.5px;
+}
+
+.gender-assigned-row {
+    display: flex;
+    color: rgb(155, 155, 155);
+    gap: 7.5px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gender-assigned-row > button {
+    width: fit-content;
+    color: rgb(155, 155, 155);
+    padding: 7.5px;
+}
+
+.gender-assigned-row > button:hover,
+.selected-gender-assigned {
+    background-color: rgb(155, 155, 155) !important;
+    color: black !important;
+}
+
+/* ----------------RACE---------------- */
+
+.race-box {
+    position: sticky;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(40, 40, 40);
+    width: fit-content;
+    height: fit-content;
+    padding: 25px;
+}
+
+.race-text {
+    color: white;
+}
+
+.race-row {
+    width: 100%;
+    color: rgb(155, 155, 155);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.race-row > div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.race-row > div > div {
+    flex-shrink: 0;
+}
+
+#black {
+    background-color: #818181;
+    width: 1rem;
+    height: 1rem;
+}
+
+#white {
+    background-color: #656565;
+    width: 1rem;
+    height: 1rem;
+}
+
+#hispanic {
+    background-color: #3e3e3e;
+    width: 1rem;
+    height: 1rem;
+}
+
+#other {
+    background-color: #2e2e2e;
+    width: 1rem;
+    height: 1rem;
+}
+
+#unknown {
+    background-color: #222222;
+    width: 1rem;
+    height: 1rem;
+}
+
+/* ----------------DATA---------------- */
+#data-wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pixel {
+    width: 20px;
+    height: 20px;
+}
+
+.hovered-pixel {
+    border: 3px solid white;
+}
+
+#pixel-info {
+    position: absolute;
+    z-index: 5;
+    width: 15vw;
+    font-weight: 700;
+    color: white;
+}
+
+#no-data-text {
+    width: fit-content;
+    color: white;
+    font-size: 20px;
+}
+
+.hidden {
+    display: none;
+}

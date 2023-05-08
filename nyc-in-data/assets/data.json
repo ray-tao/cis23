@@ -1,0 +1,812 @@
+[
+    {
+        "year": 2019,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Female",
+        "raceEthnicity": "Non-Hispanic Black",
+        "deaths": 120,
+        "deathRate": 12.03461154,
+        "ageAdjustedDeathRate": 10.40042785
+    },
+    {
+        "year": 2019,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Male",
+        "raceEthnicity": "Hispanic",
+        "deaths": 423,
+        "deathRate": 36.09960418,
+        "ageAdjustedDeathRate": 35.70789583
+    },
+    {
+        "year": 2019,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Male",
+        "raceEthnicity": "Non-Hispanic White",
+        "deaths": 418,
+        "deathRate": 31.89159908,
+        "ageAdjustedDeathRate": 28.91253713
+    },
+    {
+        "year": 2019,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Male",
+        "raceEthnicity": "Non-Hispanic Black",
+        "deaths": 294,
+        "deathRate": 35.4762261,
+        "ageAdjustedDeathRate": 32.35415157
+    },
+    {
+        "year": 2019,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Male",
+        "raceEthnicity": "Other Race/ Ethnicity",
+        "deaths": 5,
+        "deathRate": "",
+        "ageAdjustedDeathRate": ""
+    },
+    {
+        "year": 2019,
+        "leadingCause": "Mental and Behavioral Disorders due to Use of Alcohol (F10)",
+        "sex": "Male",
+        "raceEthnicity": "Other Race/ Ethnicity",
+        "deaths": 1,
+        "deathRate": "",
+        "ageAdjustedDeathRate": ""
+    },
+    {
+        "year": 2019,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Male",
+        "raceEthnicity": "Not Stated/Unknown",
+        "deaths": 22,
+        "deathRate": 27.05827368,
+        "ageAdjustedDeathRate": 33.81858299
+    },
+    {
+        "year": 2019,
+        "leadingCause": "Mental and Behavioral Disorders due to Use of Alcohol (F10)",
+        "sex": "Male",
+        "raceEthnicity": "Not Stated/Unknown",
+        "deaths": 18,
+        "deathRate": 22.13858756,
+        "ageAdjustedDeathRate": 27.07693999
+    },
+    {
+        "year": 2019,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Female",
+        "raceEthnicity": "Hispanic",
+        "deaths": 104,
+        "deathRate": 8.307824053,
+        "ageAdjustedDeathRate": 8.039053498
+    },
+    {
+        "year": 2019,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Female",
+        "raceEthnicity": "Non-Hispanic White",
+        "deaths": 125,
+        "deathRate": 9.115530969,
+        "ageAdjustedDeathRate": 8.755260544
+    },
+    {
+        "year": 2019,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Female",
+        "raceEthnicity": "Not Stated/Unknown",
+        "deaths": 8,
+        "deathRate": 8.844176662,
+        "ageAdjustedDeathRate": 10.75357397
+    },
+    {
+        "year": 2019,
+        "leadingCause": "Mental and Behavioral Disorders due to Use of Alcohol (F10)",
+        "sex": "Female",
+        "raceEthnicity": "Other Race/ Ethnicity",
+        "deaths": 1,
+        "deathRate": "",
+        "ageAdjustedDeathRate": ""
+    },
+    {
+        "year": 2019,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Female",
+        "raceEthnicity": "Other Race/ Ethnicity",
+        "deaths": 1,
+        "deathRate": "",
+        "ageAdjustedDeathRate": ""
+    },
+    {
+        "year": 2018,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "F",
+        "raceEthnicity": "Non-Hispanic White",
+        "deaths": 120,
+        "deathRate": 8.707,
+        "ageAdjustedDeathRate": 8.385
+    },
+    {
+        "year": 2018,
+        "leadingCause": "Mental and Behavioral Disorders due to Use of Alcohol (F10)",
+        "sex": "F",
+        "raceEthnicity": "Other Race/ Ethnicity",
+        "deaths": 2,
+        "deathRate": "",
+        "ageAdjustedDeathRate": ""
+    },
+    {
+        "year": 2018,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "M",
+        "raceEthnicity": "Other Race/ Ethnicity",
+        "deaths": 13,
+        "deathRate": "",
+        "ageAdjustedDeathRate": ""
+    },
+    {
+        "year": 2018,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "M",
+        "raceEthnicity": "Hispanic",
+        "deaths": 392,
+        "deathRate": 33.093,
+        "ageAdjustedDeathRate": 32.997
+    },
+    {
+        "year": 2018,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "M",
+        "raceEthnicity": "Non-Hispanic Black",
+        "deaths": 271,
+        "deathRate": 32.335,
+        "ageAdjustedDeathRate": 29.271
+    },
+    {
+        "year": 2018,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "M",
+        "raceEthnicity": "Non-Hispanic White",
+        "deaths": 413,
+        "deathRate": 31.381,
+        "ageAdjustedDeathRate": 28.644
+    },
+    {
+        "year": 2018,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "M",
+        "raceEthnicity": "Not Stated/Unknown",
+        "deaths": 23,
+        "deathRate": 28.794,
+        "ageAdjustedDeathRate": 35.45
+    },
+    {
+        "year": 2018,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "F",
+        "raceEthnicity": "Non-Hispanic Black",
+        "deaths": 123,
+        "deathRate": 12.166,
+        "ageAdjustedDeathRate": 10.384
+    },
+    {
+        "year": 2018,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "F",
+        "raceEthnicity": "Hispanic",
+        "deaths": 107,
+        "deathRate": 8.459,
+        "ageAdjustedDeathRate": 8.153
+    },
+    {
+        "year": 2017,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Male",
+        "raceEthnicity": "Other Race/ Ethnicity",
+        "deaths": 5,
+        "deathRate": "",
+        "ageAdjustedDeathRate": ""
+    },
+    {
+        "year": 2017,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Female",
+        "raceEthnicity": "Hispanic",
+        "deaths": 86,
+        "deathRate": 6.6320923866,
+        "ageAdjustedDeathRate": 6.4346776558
+    },
+    {
+        "year": 2017,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Female",
+        "raceEthnicity": "Non-Hispanic Black",
+        "deaths": 118,
+        "deathRate": 11.33393717,
+        "ageAdjustedDeathRate": 9.911482893
+    },
+    {
+        "year": 2017,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Female",
+        "raceEthnicity": "Non-Hispanic White",
+        "deaths": 119,
+        "deathRate": 8.4518846282,
+        "ageAdjustedDeathRate": 8.1706566652
+    },
+    {
+        "year": 2017,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Female",
+        "raceEthnicity": "Other Race/ Ethnicity",
+        "deaths": 3,
+        "deathRate": "",
+        "ageAdjustedDeathRate": ""
+    },
+    {
+        "year": 2017,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Male",
+        "raceEthnicity": "Hispanic",
+        "deaths": 394,
+        "deathRate": 32.276456864,
+        "ageAdjustedDeathRate": 32.199106045
+    },
+    {
+        "year": 2017,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Male",
+        "raceEthnicity": "Non-Hispanic Black",
+        "deaths": 309,
+        "deathRate": 35.894630094,
+        "ageAdjustedDeathRate": 33.149966918
+    },
+    {
+        "year": 2017,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Male",
+        "raceEthnicity": "Non-Hispanic White",
+        "deaths": 451,
+        "deathRate": 33.576908616,
+        "ageAdjustedDeathRate": 30.976421796
+    },
+    {
+        "year": 2017,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Male",
+        "raceEthnicity": "Not Stated/Unknown",
+        "deaths": 17,
+        "deathRate": "",
+        "ageAdjustedDeathRate": ""
+    },
+    {
+        "year": 2016,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Male",
+        "raceEthnicity": "Not Stated/Unknown",
+        "deaths": 16,
+        "deathRate": "",
+        "ageAdjustedDeathRate": ""
+    },
+    {
+        "year": 2016,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Female",
+        "raceEthnicity": "Hispanic",
+        "deaths": 90,
+        "deathRate": 7.0240613123,
+        "ageAdjustedDeathRate": 6.8554556055
+    },
+    {
+        "year": 2016,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Female",
+        "raceEthnicity": "Non-Hispanic Black",
+        "deaths": 101,
+        "deathRate": 9.7151816547,
+        "ageAdjustedDeathRate": 8.5902035184
+    },
+    {
+        "year": 2016,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Female",
+        "raceEthnicity": "Non-Hispanic White",
+        "deaths": 138,
+        "deathRate": 9.8498820869,
+        "ageAdjustedDeathRate": 9.3751240527
+    },
+    {
+        "year": 2016,
+        "leadingCause": "Mental and Behavioral Disorders due to Use of Alcohol (F10)",
+        "sex": "Female",
+        "raceEthnicity": "Other Race/ Ethnicity",
+        "deaths": 1,
+        "deathRate": "",
+        "ageAdjustedDeathRate": ""
+    },
+    {
+        "year": 2016,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Male",
+        "raceEthnicity": "Hispanic",
+        "deaths": 369,
+        "deathRate": 30.551947004,
+        "ageAdjustedDeathRate": 30.486545556
+    },
+    {
+        "year": 2016,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Male",
+        "raceEthnicity": "Non-Hispanic Black",
+        "deaths": 258,
+        "deathRate": 30.008060305,
+        "ageAdjustedDeathRate": 27.588455537
+    },
+    {
+        "year": 2016,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Male",
+        "raceEthnicity": "Non-Hispanic White",
+        "deaths": 482,
+        "deathRate": 36.074307085,
+        "ageAdjustedDeathRate": 33.277938395
+    },
+    {
+        "year": 2016,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Male",
+        "raceEthnicity": "Other Race/ Ethnicity",
+        "deaths": 3,
+        "deathRate": "",
+        "ageAdjustedDeathRate": ""
+    },
+    {
+        "year": 2016,
+        "leadingCause": "Mental and Behavioral Disorders due to Use of Alcohol (F10)",
+        "sex": "Male",
+        "raceEthnicity": "Other Race/ Ethnicity",
+        "deaths": 2,
+        "deathRate": "",
+        "ageAdjustedDeathRate": ""
+    },
+    {
+        "year": 2015,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Male",
+        "raceEthnicity": "Other Race/ Ethnicity",
+        "deaths": 3,
+        "deathRate": "",
+        "ageAdjustedDeathRate": ""
+    },
+    {
+        "year": 2015,
+        "leadingCause": "Mental and Behavioral Disorders due to Use of Alcohol (F10)",
+        "sex": "Male",
+        "raceEthnicity": "Other Race/ Ethnicity",
+        "deaths": 1,
+        "deathRate": "",
+        "ageAdjustedDeathRate": ""
+    },
+    {
+        "year": 2015,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Male",
+        "raceEthnicity": "Hispanic",
+        "deaths": 261,
+        "deathRate": 21.623878727,
+        "ageAdjustedDeathRate": 21.734288627
+    },
+    {
+        "year": 2015,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Female",
+        "raceEthnicity": "Hispanic",
+        "deaths": 78,
+        "deathRate": 6.1026847118,
+        "ageAdjustedDeathRate": 5.9547881374
+    },
+    {
+        "year": 2015,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Male",
+        "raceEthnicity": "Non-Hispanic Black",
+        "deaths": 155,
+        "deathRate": 17.969451932,
+        "ageAdjustedDeathRate": 16.627848482
+    },
+    {
+        "year": 2015,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Male",
+        "raceEthnicity": "Non-Hispanic White",
+        "deaths": 342,
+        "deathRate": 25.422387013,
+        "ageAdjustedDeathRate": 23.63655961
+    },
+    {
+        "year": 2015,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Male",
+        "raceEthnicity": "Not Stated/Unknown",
+        "deaths": 11,
+        "deathRate": "",
+        "ageAdjustedDeathRate": ""
+    },
+    {
+        "year": 2015,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "Female",
+        "raceEthnicity": "Other Race/ Ethnicity",
+        "deaths": 1,
+        "deathRate": "",
+        "ageAdjustedDeathRate": ""
+    },
+    {
+        "year": 2014,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "F",
+        "raceEthnicity": "Not Stated/Unknown",
+        "deaths": 6,
+        "deathRate": ".",
+        "ageAdjustedDeathRate": "."
+    },
+    {
+        "year": 2014,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "M",
+        "raceEthnicity": "Hispanic",
+        "deaths": 191,
+        "deathRate": 16,
+        "ageAdjustedDeathRate": 16.6
+    },
+    {
+        "year": 2014,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "M",
+        "raceEthnicity": "White Non-Hispanic",
+        "deaths": 314,
+        "deathRate": 23.4,
+        "ageAdjustedDeathRate": 21.4
+    },
+    {
+        "year": 2014,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "M",
+        "raceEthnicity": "Other Race/ Ethnicity",
+        "deaths": 12,
+        "deathRate": ".",
+        "ageAdjustedDeathRate": "."
+    },
+    {
+        "year": 2013,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "M",
+        "raceEthnicity": "Hispanic",
+        "deaths": 188,
+        "deathRate": 15.9,
+        "ageAdjustedDeathRate": 16.6
+    },
+    {
+        "year": 2013,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "M",
+        "raceEthnicity": "Not Stated/Unknown",
+        "deaths": 21,
+        "deathRate": ".",
+        "ageAdjustedDeathRate": "."
+    },
+    {
+        "year": 2013,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "M",
+        "raceEthnicity": "White Non-Hispanic",
+        "deaths": 286,
+        "deathRate": 21.2,
+        "ageAdjustedDeathRate": 19.5
+    },
+    {
+        "year": 2013,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "F",
+        "raceEthnicity": "Not Stated/Unknown",
+        "deaths": 6,
+        "deathRate": ".",
+        "ageAdjustedDeathRate": "."
+    },
+    {
+        "year": 2013,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "F",
+        "raceEthnicity": "Hispanic",
+        "deaths": 63,
+        "deathRate": 5,
+        "ageAdjustedDeathRate": 4.9
+    },
+    {
+        "year": 2012,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "M",
+        "raceEthnicity": "White Non-Hispanic",
+        "deaths": 272,
+        "deathRate": 20.3,
+        "ageAdjustedDeathRate": 18.7
+    },
+    {
+        "year": 2012,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "F",
+        "raceEthnicity": "Other Race/ Ethnicity",
+        "deaths": ".",
+        "deathRate": ".",
+        "ageAdjustedDeathRate": "."
+    },
+    {
+        "year": 2012,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "M",
+        "raceEthnicity": "Hispanic",
+        "deaths": 173,
+        "deathRate": 14.8,
+        "ageAdjustedDeathRate": 15.5
+    },
+    {
+        "year": 2012,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "M",
+        "raceEthnicity": "Not Stated/Unknown",
+        "deaths": 7,
+        "deathRate": ".",
+        "ageAdjustedDeathRate": "."
+    },
+    {
+        "year": 2011,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "M",
+        "raceEthnicity": "Hispanic",
+        "deaths": 145,
+        "deathRate": 12.6,
+        "ageAdjustedDeathRate": 13
+    },
+    {
+        "year": 2011,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "M",
+        "raceEthnicity": "Black Non-Hispanic",
+        "deaths": 135,
+        "deathRate": 15.8,
+        "ageAdjustedDeathRate": 14.8
+    },
+    {
+        "year": 2011,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "F",
+        "raceEthnicity": "Not Stated/Unknown",
+        "deaths": ".",
+        "deathRate": ".",
+        "ageAdjustedDeathRate": "."
+    },
+    {
+        "year": 2011,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "F",
+        "raceEthnicity": "Hispanic",
+        "deaths": 56,
+        "deathRate": 4.6,
+        "ageAdjustedDeathRate": 4.5
+    },
+    {
+        "year": 2011,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "M",
+        "raceEthnicity": "Not Stated/Unknown",
+        "deaths": 5,
+        "deathRate": ".",
+        "ageAdjustedDeathRate": "."
+    },
+    {
+        "year": 2011,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "F",
+        "raceEthnicity": "White Non-Hispanic",
+        "deaths": 88,
+        "deathRate": 6.2,
+        "ageAdjustedDeathRate": 6.1
+    },
+    {
+        "year": 2011,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "M",
+        "raceEthnicity": "White Non-Hispanic",
+        "deaths": 254,
+        "deathRate": 19,
+        "ageAdjustedDeathRate": 17.3
+    },
+    {
+        "year": 2010,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "M",
+        "raceEthnicity": "Not Stated/Unknown",
+        "deaths": 6,
+        "deathRate": ".",
+        "ageAdjustedDeathRate": "."
+    },
+    {
+        "year": 2010,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "F",
+        "raceEthnicity": "Other Race/ Ethnicity",
+        "deaths": ".",
+        "deathRate": ".",
+        "ageAdjustedDeathRate": "."
+    },
+    {
+        "year": 2010,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "M",
+        "raceEthnicity": "Hispanic",
+        "deaths": 138,
+        "deathRate": 12.1,
+        "ageAdjustedDeathRate": 12.9
+    },
+    {
+        "year": 2010,
+        "leadingCause": "Mental and Behavioral Disorders due to Use of Alcohol (F10)",
+        "sex": "M",
+        "raceEthnicity": "Other Race/ Ethnicity",
+        "deaths": ".",
+        "deathRate": ".",
+        "ageAdjustedDeathRate": "."
+    },
+    {
+        "year": 2010,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "M",
+        "raceEthnicity": "White Non-Hispanic",
+        "deaths": 211,
+        "deathRate": 15.7,
+        "ageAdjustedDeathRate": 14.5
+    },
+    {
+        "year": 2009,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "M",
+        "raceEthnicity": "Not Stated/Unknown",
+        "deaths": 7,
+        "deathRate": ".",
+        "ageAdjustedDeathRate": "."
+    },
+    {
+        "year": 2009,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "F",
+        "raceEthnicity": "Hispanic",
+        "deaths": 57,
+        "deathRate": 4.8,
+        "ageAdjustedDeathRate": 4.7
+    },
+    {
+        "year": 2009,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "M",
+        "raceEthnicity": "Other Race/ Ethnicity",
+        "deaths": ".",
+        "deathRate": ".",
+        "ageAdjustedDeathRate": "."
+    },
+    {
+        "year": 2009,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "M",
+        "raceEthnicity": "Hispanic",
+        "deaths": 145,
+        "deathRate": 12.9,
+        "ageAdjustedDeathRate": 13.5
+    },
+    {
+        "year": 2009,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "M",
+        "raceEthnicity": "White Non-Hispanic",
+        "deaths": 221,
+        "deathRate": 16.4,
+        "ageAdjustedDeathRate": 14.8
+    },
+    {
+        "year": 2009,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "F",
+        "raceEthnicity": "White Non-Hispanic",
+        "deaths": 75,
+        "deathRate": 5.2,
+        "ageAdjustedDeathRate": 5.1
+    },
+    {
+        "year": 2008,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "F",
+        "raceEthnicity": "White Non-Hispanic",
+        "deaths": 86,
+        "deathRate": 6,
+        "ageAdjustedDeathRate": 5.5
+    },
+    {
+        "year": 2008,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "M",
+        "raceEthnicity": "Not Stated/Unknown",
+        "deaths": 13,
+        "deathRate": ".",
+        "ageAdjustedDeathRate": "."
+    },
+    {
+        "year": 2008,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "M",
+        "raceEthnicity": "White Non-Hispanic",
+        "deaths": 227,
+        "deathRate": 16.9,
+        "ageAdjustedDeathRate": 15.5
+    },
+    {
+        "year": 2008,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "M",
+        "raceEthnicity": "Hispanic",
+        "deaths": 172,
+        "deathRate": 15.6,
+        "ageAdjustedDeathRate": 16.3
+    },
+    {
+        "year": 2007,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "F",
+        "raceEthnicity": "Black Non-Hispanic",
+        "deaths": 87,
+        "deathRate": 8.3,
+        "ageAdjustedDeathRate": 7.4
+    },
+    {
+        "year": 2007,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "M",
+        "raceEthnicity": "Not Stated/Unknown",
+        "deaths": 10,
+        "deathRate": ".",
+        "ageAdjustedDeathRate": "."
+    },
+    {
+        "year": 2007,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "M",
+        "raceEthnicity": "Black Non-Hispanic",
+        "deaths": 163,
+        "deathRate": 19.1,
+        "ageAdjustedDeathRate": 19
+    },
+    {
+        "year": 2007,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "M",
+        "raceEthnicity": "Hispanic",
+        "deaths": 183,
+        "deathRate": 16.8,
+        "ageAdjustedDeathRate": 17.9
+    },
+    {
+        "year": 2007,
+        "leadingCause": "Mental and Behavioral Disorders due to Use of Alcohol (F10)",
+        "sex": "M",
+        "raceEthnicity": "Not Stated/Unknown",
+        "deaths": ".",
+        "deathRate": ".",
+        "ageAdjustedDeathRate": "."
+    },
+    {
+        "year": 2007,
+        "leadingCause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+        "sex": "M",
+        "raceEthnicity": "White Non-Hispanic",
+        "deaths": 261,
+        "deathRate": 19.5,
+        "ageAdjustedDeathRate": 17.6
+    }
+]
